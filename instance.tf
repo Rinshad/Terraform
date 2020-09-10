@@ -1,4 +1,4 @@
-#Data Disk for Virtual Machine
+# Data Disk for Virtual Machine
 resource "azurerm_managed_disk" "datadisk" {
  count                = var.numbercount
  name                 = "datadisk_existing_${count.index}"
