@@ -5,7 +5,7 @@ resource "azurerm_virtual_network" "vnet" {
     location             = var.location
     resource_group_name  = var.rgname
 }
-# Subnet for virtual machine
+#  Subnet for virtual machine
 resource "azurerm_subnet" "vmsubnet" {
   name                  =  var.subnet_name
   address_prefix        =  var.address_prefix
