@@ -1,4 +1,4 @@
-
+#resource group detail
 provider "azurerm" {
   version = "1.27.0"
 }
